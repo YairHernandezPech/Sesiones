@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--Este link es para dar diseño a mi alert llamada enviar-->
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <form name="form" action="test.php" method="post">
+        
+        <input type="text" placeholder="Nombre" required>
+        <br>
+        <input type="text" placeholder="Apellido" required>
+        <br>
+        <input type="text" placeholder="Numero o correo" required>
+        <br>
+        <input type="text" name="usuario" placeholder="Nombre de usuario" required>
+        <br>
+        <input type="password" name="clave" placeholder="Contrasena" required>
+        
+            <input type="submit" value="enviar" onclick="enviar ()">
+    </form>
+            <script>
+                /*Enviar*/
+        function enviar(){
+         swal('Registro' ,'Tu registro a sido exitoso', 'success')
+     } 
+         </script>
+</body>
+</html>
