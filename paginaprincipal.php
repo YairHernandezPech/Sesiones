@@ -1,3 +1,21 @@
+<?php 
+
+session_start();
+$usuario = $_SESSION['username'];
+
+if (!isset($usuario)) {
+    header("location: sesiones.php");
+}else{
+
+    //echo"<h1>Bienvenido $usuario</h1>";
+
+    //echo"<a href='logica/salir.php'>Salir</a>";
+
+    
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +36,7 @@
                 <div class="container">
                   <a class="navbar-brand" href="#">
                     <img src="http://www.utponiente.edu.mx/utp/assets/img/universidad/AZUL%20TRANSP%2021.png" alt="Bootstrap" width="90" height="40">
-                    <strong>Universidad Tecnologica Del Poniente</strong> 
+                    <strong>Bienvenido <?php echo"<strong> $usuario</strong>";?></strong> 
                   </a>
                   <ul class="nav nav-pills">
 
@@ -26,11 +44,45 @@
                       <a class="nav-link" href="http://www.utponiente.edu.mx/utp/carreras.php">Carreras</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="http://www.utponiente.edu.mx/utp/contact.php">Contactanos</a>
+                      <a class="nav-link" href="logica/salir.php">Salir</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="sesiones.php">Login</a>
-                    </li>
+                    <div class="col">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              Perfil
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <?php echo "<h5 > $usuario </h5>"?>
+   
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="" style="color: black">
+      Fabuloso ahora eres perteneciente a la universidad tecnologica del poniente 
+      <div class = "imge1" >
+      <img src="img/perfil.png" alt="...">
+      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
                 </ul>
                 </div>
               </nav>
