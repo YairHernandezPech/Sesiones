@@ -23,6 +23,7 @@
 				<a href="#"><i class="fa fa-facebook-square  fa-6"></i></a>
 				<a href="#"><i class="fa fa-google-plus-square fa-6"></i></a>
 				<a href="#"><i class="fa fa-twitter-square fa-6"></i></a>
+				<a href="https://github.com/YairHernandezPech"><i class="fa fa-github-square fa-6"></i></a>
 			</div>
 
 			<form action="logica/loguear.php" method="post" id="login" class="input-group">

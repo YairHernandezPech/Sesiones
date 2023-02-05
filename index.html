@@ -79,7 +79,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Citas</h5>
                           <p class="card-text">Agenda una cita.</p>
-                          <button type="button" class="btn btn-info btn-sm">Reservar ahora</button>
+                          <button type="button" class="btn btn-info btn-sm" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Reservar ahora</button>
                         </div>
                       </div>
                   </div>
@@ -105,7 +105,27 @@
               </div>
               <!--aqui termina-->
     </div>
+
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Error</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            No puedes realizar esta acción necesitas estar registrado
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Okey</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
    
 </body>
 </html>
-
