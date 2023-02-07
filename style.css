@@ -9,6 +9,18 @@
  width: 5px;
  height: 5px;
 }
+#colorNav{
+	background: linear-gradient(to right, #ff105f, #ffad06);
+}
+#colorNavletra{
+	color: white;
+}
+#colorCards{
+	background-color: rgb(77, 164, 235);
+	color: white;
+	/*background: linear-gradient(to right, #ff105f, #ffad06);*/
+}
+
 
 * {
 	margin: 0;

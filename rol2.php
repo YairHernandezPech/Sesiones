@@ -5,7 +5,9 @@ $usuario = $_POST["usuario"];
 $clave = $_POST["clave"];
 
 $conexion = conn();
+//Pasword No seguro
 $sql = "INSERT INTO usuarios (usuario,clave)VALUES('$usuario','$clave')";
+
 //Paword Incriptado desde la base de datos
 //$sql = "INSERT INTO usuarios(usuario,clave) VALUES ('$usuario',aes_encrypt('$clave','clave'))";
 
@@ -47,22 +49,22 @@ if (!isset($usuario,$clave)) {
         <!--aqui termina-->
     <title>Login</title>
 </head>
-<body style="background-color: rgb(224, 224, 224);">
-    <div class="container-lg">
-      <!--aqui inicia menu de navegacion-->
-            <nav class="navbar bg-light">
-                <div class="container">
+<body style="background-color: rgb(158, 158, 158);">
+    <!--<div class="container-lg">
+      aqui inicia menu de navegacion-->
+            <nav class="navbar bg-light" id="colorNav">
+                <div class="container" id="colorNav">
                   <a class="navbar-brand" href="#">
                     <img src="http://www.utponiente.edu.mx/utp/assets/img/universidad/AZUL%20TRANSP%2021.png" alt="Bootstrap" width="90" height="40">
-                    <strong>Bienvenido <?php echo"<strong> $usuario</strong>";?></strong> 
+                    <strong id="colorNavletra">Bienvenido <?php echo"<strong> $usuario</strong>";?></strong> 
                   </a>
                   <ul class="nav nav-pills">
 
                     <li class="nav-item">
-                      <a class="nav-link" href="http://www.utponiente.edu.mx/utp/carreras.php">Carreras</a>
+                      <a class="nav-link" href="http://www.utponiente.edu.mx/utp/carreras.php" id="colorNavletra">Carreras</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="logica/salir.php">Salir</a>
+                      <a class="nav-link" href="logica/salir.php" id="colorNavletra">Salir</a>
                     </li>
                     <div class="col">
             <button
@@ -71,6 +73,7 @@ if (!isset($usuario,$clave)) {
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasRight"
               aria-controls="offcanvasRight"
+              id="colorNavletra"
             >
               Perfil
             </button>
@@ -110,27 +113,27 @@ if (!isset($usuario,$clave)) {
               <div class="container text-center">
                 <div class="row align-items-start">
                   <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id="colorCards">
                         <img src="img/estudiante.png" class="card-img-top" id="img" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" id="colorCards">
                             <h5 class="card-title">PROCESO DE INSCRIPCIÓN</h5>
                           <p class="card-text">Información para alumnos de Nuevo Ingreso, de inscripción al 1er cuatrimestre.</p>
                         </div>
                       </div>
                   </div>
                   <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id="colorCards">
                         <img src="img/caledario.png" class="card-img-top" id="img" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" id="colorCards">
                             <h5 class="card-title">Calendario Escolar</h5>
                           <p class="card-text">Consulta nuestro "Calendario Escolar y de Actividades Académico-Administrativas".</p>
                         </div>
                       </div>
                   </div>
                   <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id="colorCards">
                         <img src="img/libros.png" class="card-img-top" id="img" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" id="colorCards">
                             <h5 class="card-title">OFERTA EDUCATIVA</h5>
                           <p class="card-text">Consulta la convocatoria para ingresar a las carreras de nivel TSU y licenciatura.</p>
                         </div>
@@ -144,9 +147,9 @@ if (!isset($usuario,$clave)) {
               <div class="container text-center">
                 <div class="row align-items-start">
                   <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id="colorCards">
                         <img src="img/citas.png" class="card-img-top" id="img" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" id="colorCards">
                             <h5 class="card-title">Citas</h5>
                           <p class="card-text">Agenda una cita.</p>
                           <button type="button" class="btn btn-info btn-sm">Reservar ahora</button>
@@ -154,18 +157,18 @@ if (!isset($usuario,$clave)) {
                       </div>
                   </div>
                   <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id="colorCards">
                         <img src="img/integridad.png" class="card-img-top" id="img" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" id="colorCards">
                             <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
                   </div>
                   <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" id="colorCards">
                         <img src="img/privacidad.png" class="card-img-top" id="img" alt="...">
-                        <div class="card-body">
+                        <div class="card-body" id="colorCards">
                             <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -173,8 +176,8 @@ if (!isset($usuario,$clave)) {
                   </div>
                 </div>
               </div>
-              <!--aqui termina-->
-    </div>
+              <!--aqui termina
+    </div>-->
    
 </body>
 </html>
