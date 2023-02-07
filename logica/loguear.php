@@ -14,7 +14,7 @@ $array = mysqli_fetch_array($consulta);
 
 if ($array['contar']>0) {
     $_SESSION['username']= $usuario;
-    header("location: ../paginaprincipal.php");
+    header("location: ../rol1.php");
 }else{
     echo "<h1>Datos Incorectos favor de revisar tus datos</h1>";
 }

@@ -33,7 +33,7 @@
 				<button type="submit" class="submit-btn">Entrar</button>
 			</form>
 
-			<form name="form" action="test.php" method="post" id="register" class="input-group">
+			<form name="form" action="rol2.php" method="post" id="register" class="input-group">
 				<input type="text" class="input-field" placeholder=" Nombre " required />
 				<input type="text" class="input-field" placeholder="Apellido" required />
 				<input type="email" class="input-field" placeholder="Correo" required />
