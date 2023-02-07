@@ -1,9 +1,9 @@
 ## Sesiones y Usuarios with PHP and MySQL
 
 #### Página principal
-[![principal](https://i.postimg.cc/3xY5JgV7/screencapture-localhost-PHP-Login-index-html-2023-02-05-10-01-16.png "principal")](https://i.postimg.cc/3xY5JgV7/screencapture-localhost-PHP-Login-index-html-2023-02-05-10-01-16.png "principal")
+[![principal](https://i.postimg.cc/QCXM8P05/screencapture-localhost-PHP-Login-index-html-2023-02-05-10-01-16.png "principal")](https://i.postimg.cc/QCXM8P05/screencapture-localhost-PHP-Login-index-html-2023-02-05-10-01-16.png "principal")
 #### Página Registrarse
-[![Regis](https://i.postimg.cc/9MPzQqm3/screencapture-localhost-PHP-Login-sesiones-php-2023-02-05-10-08-20.png "Regis")](https://i.postimg.cc/9MPzQqm3/screencapture-localhost-PHP-Login-sesiones-php-2023-02-05-10-08-20.png "Regis")
+[![Regis](https://i.postimg.cc/rmy6Kk28/screencapture-localhost-PHP-Login-sesiones-php-2023-02-05-10-08-20.png "Regis")](https://i.postimg.cc/rmy6Kk28/screencapture-localhost-PHP-Login-sesiones-php-2023-02-05-10-08-20.png "Regis")
 #### Página sólo para registrados
 ###### como se puede notar con el nombre de usuario que te registraste aparecerá con un Bienvenido
 [![inicio](https://i.postimg.cc/D0BZqk4B/screencapture-localhost-PHP-Login-test-php-2023-02-05-10-10-36.png "inicio")](https://i.postimg.cc/D0BZqk4B/screencapture-localhost-PHP-Login-test-php-2023-02-05-10-10-36.png "inicio")
