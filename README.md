@@ -1,12 +1,12 @@
 ## Sesiones y Usuarios with PHP and MySQL
 
 #### Página principal
-[![principal](https://i.postimg.cc/QCXM8P05/screencapture-localhost-PHP-Login-index-html-2023-02-05-10-01-16.png "principal")](https://i.postimg.cc/QCXM8P05/screencapture-localhost-PHP-Login-index-html-2023-02-05-10-01-16.png "principal")
+[![principal](https://i.postimg.cc/K8NJhZt5/screencapture-localhost-PHP-Login-index-html-2023-02-07-18-26-22.png "principal")](https://i.postimg.cc/K8NJhZt5/screencapture-localhost-PHP-Login-index-html-2023-02-07-18-26-22.png "principal")
 #### Página Registrarse
 [![Regis](https://i.postimg.cc/rmy6Kk28/screencapture-localhost-PHP-Login-sesiones-php-2023-02-05-10-08-20.png "Regis")](https://i.postimg.cc/rmy6Kk28/screencapture-localhost-PHP-Login-sesiones-php-2023-02-05-10-08-20.png "Regis")
 #### Página sólo para registrados
 ###### como se puede notar con el nombre de usuario que te registraste aparecerá con un Bienvenido
-[![inicio](https://i.postimg.cc/D0BZqk4B/screencapture-localhost-PHP-Login-test-php-2023-02-05-10-10-36.png "inicio")](https://i.postimg.cc/D0BZqk4B/screencapture-localhost-PHP-Login-test-php-2023-02-05-10-10-36.png "inicio")
+[![inicio](https://i.postimg.cc/YSC8pJ3B/screencapture-localhost-PHP-Login-test-php-2023-02-07-18-28-56.png "inicio")](https://i.postimg.cc/YSC8pJ3B/screencapture-localhost-PHP-Login-test-php-2023-02-07-18-28-56.png "inicio")
 ##### Nota:
 ###### Una vez que le des al boton salir y deseas entrar por medio de la url no podrás acceder tienes que volver a iniciar sesión/log in 
 #### Página Log in
